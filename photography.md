@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About
-permalink : /about/
+title: Photography
+permalink : /photography/
 sidebar_link: true
-order: 3
+order: 2
 ---
 
 Under construction

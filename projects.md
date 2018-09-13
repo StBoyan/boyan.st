@@ -1,9 +1,8 @@
 ---
 layout: page
-title: About
-permalink : /about/
+title: Projects
 sidebar_link: true
-order: 3
+order: 1
 ---
 
 Under construction

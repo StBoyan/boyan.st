@@ -15,6 +15,7 @@ highlighter: rouge
 
 plugins:
   - jekyll-paginate
+  - jekyll-seo-tag
 
 # Custom variables
 sidebar_home_link:    true

@@ -17,9 +17,16 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
 
+defaults:
+  - scope:
+      path: "gallery"
+    values:
+      gallery_image: true
+
 # Custom variables
 sidebar_home_link:    true
 sidebar_blog_link:    '/blog/'
+thumbnail_link:       '/gallery-thumbnail/'
 
 personal:
   github:             https://github.com/StBoyan

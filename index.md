@@ -3,4 +3,4 @@ layout: page
 title: Home
 ---
 
-The site is under construction.
+<h2>Under construction </h2>

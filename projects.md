@@ -6,4 +6,4 @@ sidebar_link: true
 order: 1
 ---
 
-Under construction
+This section is under construction.

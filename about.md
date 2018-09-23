@@ -1,9 +1,0 @@
----
-layout: page
-title: About
-permalink : /about/
-sidebar_link: true
-order: 3
----
-
-Under construction

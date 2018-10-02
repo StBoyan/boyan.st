@@ -23,10 +23,16 @@ defaults:
     values:
       gallery_image: true
 
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name
+
 # Custom variables
-sidebar_home_link:    true
-sidebar_blog_link:    '/blog/'
-thumbnail_link:       '/gallery-thumbnail/'
+sidebar_home_link:        true
+sidebar_blog_link:        '/blog/'
+gallery_thumbnail_link:   '/gallery-thumbnail/'
+projects_thumbnail_link:  '/projects-thumbnail/'
 
 personal:
   github:             https://github.com/StBoyan

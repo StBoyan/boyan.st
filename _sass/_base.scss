@@ -102,9 +102,44 @@ button, input[type="submit"] {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-gap: 10px;
   }
-  
+
 .grid img {
   border: 1px solid #ccc;
   box-shadow: 4px 4px 12px 0px  rgba(0,0,0,0.3);
   max-width: 100%;
+}
+
+// Projects
+#project {
+  padding-top: 25px;
+  
+  a, figure {
+      display: inline-block;
+      margin: auto;
+  }
+  figcaption {
+    font-variant: small-caps;
+    font-weight: 400;
+    color: black;
+  }
+  figure {
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  img:hover {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+  }
+  img {
+    transition: transform 0.2s;
+    -webkit-transition: -webkit-transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    -o-transition: -o-transform 0.2s;
+    box-shadow: 4px 4px 16px 0px  rgba(0,0,0,0.3);
+  }
+
 }

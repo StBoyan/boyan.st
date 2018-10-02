@@ -8,8 +8,12 @@ layout: base
 <div class="content">
 
   <div class="post-meta">
-    <span class="post-date">{{ include.post.date | date_to_string }}</span>
-
+    {% if page.repo != null %}
+      <span class="post-repo"><a href="{{ page.repo }}">GitHub Repository</a></span>
+    {% else %}
+      <span class="post-date">{{ page.date | date_to_string }}</span>
+    {% endif %}
+  </div>
   <div class="post-body">
     {{ content }}
   </div>

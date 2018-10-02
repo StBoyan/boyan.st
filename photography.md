@@ -2,7 +2,6 @@
 layout: page
 title: Photography
 permalink : /photography/
-sidebar_link: true
 order: 2
 ---
 <!-- Lightbox plugin JS and CSS sources -->
@@ -21,7 +20,7 @@ Here are some of the photos I have taken with my camera with more to come! <br/>
 <main class="grid">
 {% for image in gallery_image %}
 <a href="{{ image.path }}" data-lightbox="gallery" data-title="{{ image.basename }}">
-	<img src="{{ site.thumbnail_link }}{{ image.name }}" alt="{{ image.basename }}">
+	<img src="{{ site.gallery_thumbnail_link }}{{ image.name }}" alt="{{ image.basename }}">
 </a>
 {% endfor %}
 </main>

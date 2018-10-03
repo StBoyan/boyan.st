@@ -6,7 +6,7 @@ layout: base
   <h1 class="post-title">{{ page.title }}</h1>
 </header>
 <div class="content">
-
+  <!-- Meta for projects and posts -->
   <div class="post-meta">
     {% if page.repo != null %}
       <span class="post-repo"><a href="{{ page.repo }}">GitHub Repository</a></span>
@@ -14,6 +14,7 @@ layout: base
       <span class="post-date">{{ page.date | date_to_string }}</span>
     {% endif %}
   </div>
+
   <div class="post-body">
     {{ content }}
   </div>
